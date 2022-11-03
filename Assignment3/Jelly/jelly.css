@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Aspira";
+    src: url(Aspira-DEMO.otf);
+}
+
+@font-face {
+    font-family: "JaneAusten";
+    src: url(JaneAust.ttf);
+}
+
+@font-face {
+    font-family: "Pesaro";
+    src: url(Pesaro-Light.otf);
+}
+
+.jrnl {
+    font-family: "Aspira";
+    font-size: 20px;
+    text-transform: uppercase;
+    float: left;
+    text-align: center;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.snake {
+    font-family: "Pesaro";
+    font-size: 150px;
+    float: right;
+    margin-right: 40px;
+}
+
+.vol {
+    font-family: "Pesaro";
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    transform: rotate(-90deg);
+    float: left;
+    margin-top: 500px;
+    margin-left: -120px;
+    position: absolute;
+}
+
+.fancy {
+    font-family: "Pesaro";
+    font-size: 70px;
+    color: #A8A8A8;
+    float: left;
+    position: relative;
+    left: 50px;
+    margin-bottom: 500px;
+}
+
+.jimg{
+    position:relative;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    width: 500px;
+    text-align: center;
+}
+
+.latin {
+    font-family: "JaneAusten";
+    font-size: 25px;
+    color: #B1B5A6;
+    transform: rotate(-90deg);
+    float: right;
+    position: relative;
+    left: 450px;
+    bottom: 350px;
+
+}
+
+footer {
+    font-family: "Aspira";
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    border-top: 2px solid gray;
+    margin-top: 20px;
+}
+

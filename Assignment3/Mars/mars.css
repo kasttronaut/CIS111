@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "MuseoSans";
+    src: url(MuseoSans_500-webfont.woff2);
+}
+
+body {
+    font-family: "MuseoSans";
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin: 40px;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+    line-height: 1;
+    background-image: url(mars.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+    max-width: 100%;
+}
+
+h3{
+    font-size: 2rem ;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h4{
+    font-style: bold;
+}
+
+.p1 {
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.p2{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.callout1{
+    font-size: 25px;
+    float: left;
+    margin: 20px;
+    border-top: 5px solid white;
+    border-bottom: 8px solid white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 250px;
+    page-break-inside: avoid;
+}
+
+.mars{
+    font-size: 25px;
+    left: 100px;
+}
+
+.europa{
+    font-size: 25px;
+}
+
+.titan{
+    font-size: 25px;
+}
+
+.conclusion{
+    font-size: 25px;
+}
+
+.callout2{
+    text-align: center;
+    float: right;
+    width: 250px;
+    border-bottom: 8px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.enceladus{
+    width: auto;
+    height: 150px;
+}
+
+img{
+    page-break-inside: avoid;
+    page-break-after: avoid;
+}
