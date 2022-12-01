@@ -1,0 +1,103 @@
+@import url(foundation.css);
+@import url(base.scss);
+
+@font-face {
+    font-family: "Moon";
+    src: url(Moon2.0-Regular.woff2);
+}
+
+@use "base.scss";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Moon";
+}
+
+body {
+    font: $font-stack;
+    font-size: 20px;
+    background: $primary-color;
+    border-style: solid;
+    border: $tertiary-color;
+    border-width: 0px 20px;
+    color: $secondary-color;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+h {
+    1 {
+        font-family: "Moon";
+        text-align: center;
+        font-size: 5rem;
+        line-height: 1;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        max-width: 100%;
+    }
+
+    3{
+        font-family: "Moon";
+        font-size: 2.5rem ;
+        text-transform: capitalize;
+        text-align: left;
+        padding-top: $default-padding;
+        padding-bottom: $default-padding;
+    }
+
+    4{
+        font-family: "Moon";
+        font-size: 2rem;
+        text-transform: capitalize;
+        padding-top: $default-padding;
+        padding-bottom: $default-padding;
+    }
+}
+
+
+.date {
+    text-align: left;
+    float: left;
+    padding-right: 50px;
+}
+
+.name {
+    text-align: right;
+    float: right;
+}
+
+.p1 {
+    text-align: justify;
+    padding-top: $default-padding;
+}
+
+.list{
+    padding-left: $default-padding;
+}
+
+.p2{
+    text-align: justify;
+}
+
+.miri{
+    float: right;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    shape-outside: circle(50%);
+    page-break-inside: avoid;
+    border: 20px solid black;  
+    margin: 20px;  
+}
+
+.occupado{
+    padding-top: $default-padding;
+    padding-bottom: $default-padding;
+    width: 1400px;
+}
